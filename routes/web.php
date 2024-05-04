@@ -18,5 +18,6 @@ Route::get('/', function () {
 });
 
 Route::post('/upload', 'App\Http\Controllers\OCRController@upload')->name('upload');
+Route::post('/receive', 'App\Http\Controllers\OCRController@receive')->name('receive');
 
 
